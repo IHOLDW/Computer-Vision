@@ -1,41 +1,32 @@
-Computer Vision Projects
+# Computer Vision Projects
 
-This repository contains a collection of computer vision projects implemented using Jupyter Notebooks. Each folder represents a distinct project that explores different techniques and architectures in the field of computer vision and deep learning.
+This repository contains a collection of **Computer Vision Projects** implemented using **Jupyter Notebooks**. Each folder represents a distinct project that explores different techniques and architectures in the field of computer vision and deep learning.
 
-Repository Structure
+## Repository Structure
 
-3D\_Volumetric\_rendering\_NERF
+### 1. **3D_Volumetric_Rendering_NERF**
+A project focused on **3D volumetric rendering** using **Neural Radiance Fields (NeRF)**. It reconstructs and renders 3D scenes from 2D images, showcasing the power of NeRF in visualizing complex 3D structures.
 
-A project focused on 3D volumetric rendering using Neural Radiance Fields (NeRF) to reconstruct and render 3D scenes from 2D images.
+### 2. **Class_Activation_Map**
+This project involves generating **Class Activation Maps (CAM)** to visualize the regions in an image that are most influential for a given prediction. It helps in improving **model interpretability** and provides insights into how the model makes decisions.
 
-Class\_Activation\_Map
+### 3. **Image_Caption_Transformer**
+An image captioning project that leverages **Transformer-based architectures** to generate descriptive captions for images. This project demonstrates how transformers can be used to understand and describe visual content effectively.
 
-Code for generating Class Activation Maps (CAM) to visualize the regions in an image that are most influential for a given prediction. This helps in understanding model interpretability.
+### 4. **MRI_Scan_Classification**
+A project dedicated to **classifying MRI scans**, focusing on techniques for **medical image analysis** and **diagnostic assistance**. This project showcases the potential of deep learning in the healthcare domain.
 
-Image\_Caption\_Transformer
+### 5. **OCR_CTC**
+Implementation of an **Optical Character Recognition (OCR)** system using **Connectionist Temporal Classification (CTC)** loss. It is designed to recognize text in images, making it useful for applications such as document scanning and text recognition.
 
-An image captioning project that leverages Transformer-based architectures to generate descriptive captions for images.
+### 6. **Spatial_Transformer_Network**
+This project demonstrates the use of **Spatial Transformer Networks (STN)** to improve the spatial invariance of **Convolutional Neural Networks (CNNs)**. By adding spatial transformation capabilities, STNs enhance the robustness and flexibility of CNNs in processing images.
 
-MRI\_scan\_classification
+### 7. **UNET**
+An implementation of the **U-Net architecture**, widely used for **image segmentation tasks**, especially in the **medical imaging domain**. This architecture is designed to perform pixel-wise segmentation with high accuracy.
 
-A project dedicated to classifying MRI scans, showcasing techniques in medical image analysis and diagnostic assistance.
+### 8. **UNET_Attention**
+An extension of the **U-Net architecture** that incorporates **attention mechanisms**. This modification allows the model to better focus on relevant features during image segmentation, improving performance on complex datasets.
 
-OCR\_CTC
-
-Implementation of an Optical Character Recognition (OCR) system using Connectionist Temporal Classification (CTC) loss, designed to recognize text in images.
-
-Spatial\_transformer\_network
-
-Demonstrates the use of Spatial Transformer Networks to improve the spatial invariance of convolutional neural networks, thereby enhancing their robustness.
-
-UNET
-
-An implementation of the U-Net architecture, widely used for image segmentation tasks, particularly in the medical imaging domain.
-
-UNET\_Attention
-
-An extension of the U-Net architecture that incorporates attention mechanisms to better focus on relevant features during image segmentation.
-
-Video\_clasifier\_conv3d
-
-A project that employs a 3D Convolutional Neural Network (CNN) for video classification, capturing both spatial and temporal features to classify video data effectively.
+### 9. **Video_Classifier_Conv3D**
+A project that employs a **3D Convolutional Neural Network (CNN)** for **video classification**. By capturing both **spatial and temporal features**, this model can classify video data effectively, making it suitable for dynamic and time-varying visual content.
